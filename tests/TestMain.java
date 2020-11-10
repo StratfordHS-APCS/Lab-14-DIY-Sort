@@ -70,7 +70,7 @@ public class TestMain {
     }
 
     @Test
-    public void sortedRandomTest() {
+    public void sortedSingleTest() {
         ArrayList<Integer> list = new ArrayList<Integer>(Arrays.asList(1));
         Main.mySort(list);
         

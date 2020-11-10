@@ -21,7 +21,7 @@ public class TestMain {
                 isSorted = false;
             }
         }
-        assertTrue("Failed on a list of random values.", isSorted));
+        assertTrue("Failed on a list of random values.", isSorted);
     }
 
     @Test
@@ -37,7 +37,7 @@ public class TestMain {
                 isSorted = false;
             }
         }
-        assertTrue("Failed on a list of already sorted values.", isSorted));
+        assertTrue("Failed on a list of already sorted values.", isSorted);
     }
 
     @Test
@@ -53,7 +53,7 @@ public class TestMain {
                 isSorted = false;
             }
         }
-        assertTrue("Failed on a list where all values are equal.", isSorted));
+        assertTrue("Failed on a list where all values are equal.", isSorted);
     }
 
     @Test
@@ -69,7 +69,7 @@ public class TestMain {
                 isSorted = false;
             }
         }
-        assertTrue("Failed on a list of descending values.", isSorted));
+        assertTrue("Failed on a list of descending values.", isSorted);
     }
 
     @Test
@@ -85,6 +85,6 @@ public class TestMain {
                 isSorted = false;
             }
         }
-        assertTrue("Failed on a list of only one value.", isSorted));
+        assertTrue("Failed on a list of only one value.", isSorted);
     }
 }

@@ -10,6 +10,10 @@ public class Main
 
     }
 
+    /*
+        Include a description of how your algorithm works here.
+    */
+
     public static void main(String[] args)
     {
         // create an ArrayList of integers, then call mySort to sort it
